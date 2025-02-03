@@ -1,0 +1,192 @@
+body{
+    background-color: #2A2A2A;
+    height: 100%;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.name-programm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #575757;
+    color: white;
+    width: 368px;
+    height: 30px;
+    background-color: #1B1B1B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.three{
+    text-decoration: underline;
+    text-decoration-color: #00FF72;
+}
+.point{
+    color: #00FF72;
+}
+.PKN{
+    text-decoration: underline;
+    text-decoration-color: #00FF72;
+}
+.start-window{
+    width: 372px;
+    height: 340px;
+    box-sizing: border-box;
+    background-color: #3B3B3B;
+    border: 3px solid #00FF72;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.allElementWindow{
+}
+.name-instruction{
+    color: white;
+}
+.goal{
+    color: white;
+    position: relative;
+    left: 4px;
+    bottom: 10px;
+}
+.start{
+    color: #00FF72;
+}
+.rule{
+    position: relative;
+    bottom: 20px;
+}
+.name-rule{
+    color: white;
+}
+.taskbar{
+    border: 3px solid #575757;
+    width: 368px;
+    height: 50px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1B1B1B;
+}
+.custom{
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.theme{
+    width: 50px;
+    height: 50px;
+}
+.window-numbers{
+    width: 368px;
+    height: 450px;
+    background-color: #1B1B1B;
+    border-radius: 15px;
+    border: 3px solid #575757;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.data{
+    height: 430px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.time-conteiner{
+    width: 368px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.number-conteiner{
+    width: 368px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.again{
+    font-size: 20px;
+}
+.time{
+    color: white;
+    font-size: 40px;
+    position: relative;
+}
+.number{
+    color: white;
+    font-size: 60px;
+}
+.input-output{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 5px;
+}
+.input-number{
+   border-radius: 10px;
+   border: 2px solid #575757;
+   width: 250px;
+   height: 60px;
+   background-color: #3B3B3B;
+   color: white;
+   font-size: 20px;
+}
+.input-number:focus{
+    outline: 2px solid #00FF72;
+    border-radius: 10px;
+}
+.answer-button{
+   height: 60px;
+   position: relative;
+   left: 10px;
+}
+.info{
+    width: 368px;
+    height: 120px;
+    background-color: #1B1B1B;
+    border-radius: 15px;
+    border: 3px solid #575757;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name-names{
+    color: white;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 15px;
+}
+.picture{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+.coolPerson{
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+}
